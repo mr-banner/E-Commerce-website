@@ -1,3 +1,4 @@
+import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
 
 export default function MainLayout({ children }) {
@@ -7,6 +8,7 @@ export default function MainLayout({ children }) {
       <div className="flex flex-1 inline-padding">
         {children}
       </div>
+      <Footer/>
     </div>
   );
 }
